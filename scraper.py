@@ -77,7 +77,7 @@ OUTPUT_MAPPING = {
     "socks5": "socks5.txt",
 }
 OUTPUT_DIR = Path(".")
-LOCKFILE = OUTPUT_DIR / ".scrapper.lock"
+LOCKFILE = OUTPUT_DIR / ".scraper.lock"
 SUMMARY_FILE = OUTPUT_DIR / "summary.json"
 HISTORY_LIMIT = 10
 
@@ -87,7 +87,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
 )
-logger = logging.getLogger("[SCRAPPER]")
+logger = logging.getLogger("[SCRAPER]")
 
 # ---------------- HELPERS ----------------
 
