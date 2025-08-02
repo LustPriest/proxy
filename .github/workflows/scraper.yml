@@ -1,19 +1,25 @@
 name: Proxy Scraper
 
 on:
-  schedule:
-    - cron: "3 * * * *"
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
+    concurrency:
+      group: proxy-scraper-job
+      cancel-in-progress: true
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        with:
+          fetch-depth: 0
+  
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
