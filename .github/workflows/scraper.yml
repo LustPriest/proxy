@@ -3,11 +3,13 @@ name: Proxy Scraper
 on:
   schedule:
     - cron: "*/3 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
