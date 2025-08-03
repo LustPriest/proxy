@@ -1,41 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-08-03T00:42:14.932952Z",
-      "protocols": {
-        "https": {
-          "count": 49638,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "http": {
-          "count": 121950,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 94599,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 113923,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 5.972,
-      "any_present": true
-    },
-    {
       "run_at": "2025-08-03T00:45:12.915997Z",
       "protocols": {
         "http": {
@@ -366,10 +331,45 @@
       },
       "duration_seconds": 7.125,
       "any_present": true
+    },
+    {
+      "run_at": "2025-08-03T01:12:14.982740Z",
+      "protocols": {
+        "http": {
+          "count": 121950,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "https": {
+          "count": 49637,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 94599,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 113923,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 6.474,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-08-03T01:09:16.105864Z",
+    "run_at": "2025-08-03T01:12:14.982740Z",
     "protocols": {
       "http": {
         "count": 121950,
@@ -400,7 +400,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 7.125,
+    "duration_seconds": 6.474,
     "any_present": true
   }
 }
