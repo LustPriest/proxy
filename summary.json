@@ -1,41 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-08-03T03:54:16.875764Z",
-      "protocols": {
-        "https": {
-          "count": 49569,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "http": {
-          "count": 122151,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 94981,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 114079,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 6.538,
-      "any_present": true
-    },
-    {
       "run_at": "2025-08-03T03:57:15.913910Z",
       "protocols": {
         "http": {
@@ -926,10 +891,45 @@
       },
       "duration_seconds": 6.289,
       "any_present": true
+    },
+    {
+      "run_at": "2025-08-03T04:24:15.187155Z",
+      "protocols": {
+        "https": {
+          "count": 50194,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "http": {
+          "count": 122169,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 95195,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 114185,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 6.393,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-08-03T04:21:15.704269Z",
+    "run_at": "2025-08-03T04:24:15.187155Z",
     "protocols": {
       "https": {
         "count": 50194,
@@ -960,7 +960,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 6.289,
+    "duration_seconds": 6.393,
     "any_present": true
   }
 }
