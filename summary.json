@@ -1,41 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-08-03T12:57:15.559626Z",
-      "protocols": {
-        "https": {
-          "count": 49639,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "http": {
-          "count": 122516,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 96016,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 114572,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 6.417,
-      "any_present": true
-    },
-    {
       "run_at": "2025-08-03T13:00:20.743448Z",
       "protocols": {
         "https": {
@@ -757,10 +722,45 @@
       },
       "duration_seconds": 6.427,
       "any_present": true
+    },
+    {
+      "run_at": "2025-08-03T13:27:12.527764Z",
+      "protocols": {
+        "https": {
+          "count": 50231,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "http": {
+          "count": 122580,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 96151,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 114584,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 6.59,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-08-03T13:24:12.902747Z",
+    "run_at": "2025-08-03T13:27:12.527764Z",
     "protocols": {
       "https": {
         "count": 50231,
@@ -791,7 +791,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 6.427,
+    "duration_seconds": 6.59,
     "any_present": true
   }
 }
