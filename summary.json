@@ -1,41 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-08-05T17:57:19.378514Z",
-      "protocols": {
-        "https": {
-          "count": 49630,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "http": {
-          "count": 118488,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 97310,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 107823,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 6.285,
-      "any_present": true
-    },
-    {
       "run_at": "2025-08-05T18:00:34.318473Z",
       "protocols": {
         "http": {
@@ -1289,20 +1254,55 @@
       },
       "duration_seconds": 6.291,
       "any_present": true
+    },
+    {
+      "run_at": "2025-08-05T18:27:21.499983Z",
+      "protocols": {
+        "https": {
+          "count": 49593,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "http": {
+          "count": 118606,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 97443,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 107940,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 6.204,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-08-05T18:24:19.389587Z",
+    "run_at": "2025-08-05T18:27:21.499983Z",
     "protocols": {
-      "http": {
-        "count": 118606,
+      "https": {
+        "count": 49593,
         "added": 0,
         "removed": 0,
         "added_list": [],
         "removed_list": []
       },
-      "https": {
-        "count": 49593,
+      "http": {
+        "count": 118606,
         "added": 0,
         "removed": 0,
         "added_list": [],
@@ -1323,7 +1323,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 6.291,
+    "duration_seconds": 6.204,
     "any_present": true
   }
 }
