@@ -1,43 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-08-12T16:39:34.922720Z",
-      "protocols": {
-        "https": {
-          "count": 50070,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "http": {
-          "count": 128293,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 95004,
-          "added": 1,
-          "removed": 0,
-          "added_list": [
-            "121.236.239.184:8989"
-          ],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 111148,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 6.493,
-      "any_present": true
-    },
-    {
       "run_at": "2025-08-12T16:42:36.297330Z",
       "protocols": {
         "http": {
@@ -1294,10 +1257,45 @@
       },
       "duration_seconds": 6.559,
       "any_present": true
+    },
+    {
+      "run_at": "2025-08-12T17:09:37.874740Z",
+      "protocols": {
+        "http": {
+          "count": 128283,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "https": {
+          "count": 50295,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 95006,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 111152,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 6.583,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-08-12T17:06:34.557244Z",
+    "run_at": "2025-08-12T17:09:37.874740Z",
     "protocols": {
       "http": {
         "count": 128283,
@@ -1328,7 +1326,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 6.559,
+    "duration_seconds": 6.583,
     "any_present": true
   }
 }
