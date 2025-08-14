@@ -1,43 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-08-14T04:00:43.453192Z",
-      "protocols": {
-        "http": {
-          "count": 130570,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "https": {
-          "count": 50276,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 96289,
-          "added": 1,
-          "removed": 0,
-          "added_list": [
-            "61.118.38.234:5678"
-          ],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 107329,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 6.656,
-      "any_present": true
-    },
-    {
       "run_at": "2025-08-14T04:03:41.909399Z",
       "protocols": {
         "https": {
@@ -1312,10 +1275,45 @@
       },
       "duration_seconds": 6.441,
       "any_present": true
+    },
+    {
+      "run_at": "2025-08-14T04:30:41.711981Z",
+      "protocols": {
+        "https": {
+          "count": 50545,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "http": {
+          "count": 130590,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 96453,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 107510,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 6.324,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-08-14T04:27:41.012670Z",
+    "run_at": "2025-08-14T04:30:41.711981Z",
     "protocols": {
       "https": {
         "count": 50545,
@@ -1346,7 +1344,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 6.441,
+    "duration_seconds": 6.324,
     "any_present": true
   }
 }
