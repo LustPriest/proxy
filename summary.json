@@ -1,41 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-08-21T11:06:57.688645Z",
-      "protocols": {
-        "http": {
-          "count": 122223,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "https": {
-          "count": 50400,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 109725,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 118514,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 6.686,
-      "any_present": true
-    },
-    {
       "run_at": "2025-08-21T11:10:01.054818Z",
       "protocols": {
         "http": {
@@ -1649,60 +1614,80 @@
       },
       "duration_seconds": 6.659,
       "any_present": true
+    },
+    {
+      "run_at": "2025-08-21T11:37:04.026760Z",
+      "protocols": {
+        "http": {
+          "count": 122249,
+          "added": 6,
+          "removed": 0,
+          "added_list": [
+            "101.66.199.79:8085",
+            "118.113.244.14:1081",
+            "180.103.19.151:1081",
+            "72.10.160.90:27925",
+            "72.10.160.93:17923",
+            "72.10.164.178:8215"
+          ],
+          "removed_list": []
+        },
+        "https": {
+          "count": 50360,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 109703,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 118451,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 6.623,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-08-21T11:34:04.847247Z",
+    "run_at": "2025-08-21T11:37:04.026760Z",
     "protocols": {
       "http": {
-        "count": 122243,
-        "added": 0,
-        "removed": 0,
-        "added_list": [],
-        "removed_list": []
-      },
-      "https": {
-        "count": 50360,
-        "added": 20,
+        "count": 122249,
+        "added": 6,
         "removed": 0,
         "added_list": [
           "101.66.199.79:8085",
-          "103.140.74.200:5678",
-          "103.166.39.17:3629",
-          "113.162.238.179:20399",
           "118.113.244.14:1081",
-          "118.113.244.17:1081",
-          "119.13.111.169:20201",
-          "134.197.80.170:8081",
-          "168.220.89.95:3129",
           "180.103.19.151:1081",
-          "188.132.249.136:8080",
-          "194.26.229.46:20001",
-          "35.206.88.200:8888",
-          "47.56.110.204:8990",
-          "50.114.110.98:3129",
-          "67.43.236.18:2359",
-          "72.10.160.90:26377",
           "72.10.160.90:27925",
           "72.10.160.93:17923",
           "72.10.164.178:8215"
         ],
         "removed_list": []
       },
+      "https": {
+        "count": 50360,
+        "added": 0,
+        "removed": 0,
+        "added_list": [],
+        "removed_list": []
+      },
       "socks4": {
         "count": 109703,
-        "added": 2,
-        "removed": 4,
-        "added_list": [
-          "119.13.111.169:20201",
-          "194.26.229.46:20001"
-        ],
-        "removed_list": [
-          "45.142.193.36:20841",
-          "47.88.29.108:8181",
-          "51.161.33.206:57283",
-          "67.213.212.40:13236"
-        ]
+        "added": 0,
+        "removed": 0,
+        "added_list": [],
+        "removed_list": []
       },
       "socks5": {
         "count": 118451,
@@ -1712,7 +1697,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 6.659,
+    "duration_seconds": 6.623,
     "any_present": true
   }
 }
