@@ -1,60 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-09-01T09:13:29.895991Z",
-      "protocols": {
-        "http": {
-          "count": 138689,
-          "added": 7,
-          "removed": 0,
-          "added_list": [
-            "116.103.130.16:1004",
-            "123.22.184.254:5110",
-            "154.53.40.110:3129",
-            "171.224.58.227:1010",
-            "171.240.20.13:5104",
-            "171.244.47.55:8046",
-            "47.251.74.38:7777"
-          ],
-          "removed_list": []
-        },
-        "https": {
-          "count": 50978,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 111530,
-          "added": 8,
-          "removed": 1,
-          "added_list": [
-            "107.180.92.72:52810",
-            "130.51.180.134:10321",
-            "157.230.183.230:48212",
-            "173.47.157.206:3129",
-            "188.64.128.1:3129",
-            "220.81.69.154:80",
-            "50.116.25.47:20201",
-            "72.10.164.178:23751"
-          ],
-          "removed_list": [
-            "185.182.194.149:31662"
-          ]
-        },
-        "socks5": {
-          "count": 130572,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 6.938,
-      "any_present": true
-    },
-    {
       "run_at": "2025-09-01T09:16:31.592736Z",
       "protocols": {
         "https": {
@@ -1704,28 +1650,46 @@
       },
       "duration_seconds": 6.766,
       "any_present": true
+    },
+    {
+      "run_at": "2025-09-01T09:46:30.247973Z",
+      "protocols": {
+        "https": {
+          "count": 51251,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "http": {
+          "count": 138672,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 111584,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 130540,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 6.637,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-09-01T09:43:28.960436Z",
+    "run_at": "2025-09-01T09:46:30.247973Z",
     "protocols": {
-      "http": {
-        "count": 138672,
-        "added": 9,
-        "removed": 0,
-        "added_list": [
-          "107.167.4.146:8998",
-          "123.22.184.85:5105",
-          "154.220.66.33:40099",
-          "171.234.51.75:5103",
-          "171.236.115.8:5106",
-          "67.43.228.253:5195",
-          "72.10.160.170:15665",
-          "72.10.160.170:22543",
-          "72.10.160.90:6407"
-        ],
-        "removed_list": []
-      },
       "https": {
         "count": 51251,
         "added": 0,
@@ -1733,26 +1697,19 @@
         "added_list": [],
         "removed_list": []
       },
+      "http": {
+        "count": 138672,
+        "added": 0,
+        "removed": 0,
+        "added_list": [],
+        "removed_list": []
+      },
       "socks4": {
         "count": 111584,
-        "added": 11,
-        "removed": 1,
-        "added_list": [
-          "123.20.172.60:1004",
-          "134.220.124.137:8080",
-          "152.53.168.53:12976",
-          "162.19.7.61:62097",
-          "163.70.123.202:80",
-          "65.109.92.51:19798",
-          "67.213.212.49:52359",
-          "67.43.228.250:16049",
-          "67.43.236.19:3647",
-          "72.10.164.178:16515",
-          "86.168.61.85:3389"
-        ],
-        "removed_list": [
-          "157.230.183.230:48212"
-        ]
+        "added": 0,
+        "removed": 0,
+        "added_list": [],
+        "removed_list": []
       },
       "socks5": {
         "count": 130540,
@@ -1762,7 +1719,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 6.766,
+    "duration_seconds": 6.637,
     "any_present": true
   }
 }
