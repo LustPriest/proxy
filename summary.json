@@ -1,41 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-09-03T22:19:40.074322Z",
-      "protocols": {
-        "http": {
-          "count": 141379,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "https": {
-          "count": 50705,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 115421,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 132819,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 7.156,
-      "any_present": true
-    },
-    {
       "run_at": "2025-09-03T22:22:39.449878Z",
       "protocols": {
         "https": {
@@ -1573,11 +1538,89 @@
       },
       "duration_seconds": 7.303,
       "any_present": true
+    },
+    {
+      "run_at": "2025-09-03T22:52:36.214729Z",
+      "protocols": {
+        "https": {
+          "count": 50638,
+          "added": 16,
+          "removed": 0,
+          "added_list": [
+            "103.166.158.33:8080",
+            "114.237.77.237:1081",
+            "114.237.77.252:1081",
+            "117.161.170.163:9267",
+            "121.132.61.211:3129",
+            "123.159.33.171:8085",
+            "139.162.78.109:3129",
+            "14.184.104.17:23",
+            "141.253.110.62:3212",
+            "154.82.63.235:40006",
+            "177.70.77.201:20183",
+            "180.103.19.143:1081",
+            "183.217.138.103:8123",
+            "23.165.240.230:10300",
+            "86.109.3.23:10018",
+            "86.109.3.23:10052"
+          ],
+          "removed_list": []
+        },
+        "http": {
+          "count": 141432,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 115422,
+          "added": 1,
+          "removed": 0,
+          "added_list": [
+            "154.82.63.235:40006"
+          ],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 132863,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 7.181,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-09-03T22:49:39.329904Z",
+    "run_at": "2025-09-03T22:52:36.214729Z",
     "protocols": {
+      "https": {
+        "count": 50638,
+        "added": 16,
+        "removed": 0,
+        "added_list": [
+          "103.166.158.33:8080",
+          "114.237.77.237:1081",
+          "114.237.77.252:1081",
+          "117.161.170.163:9267",
+          "121.132.61.211:3129",
+          "123.159.33.171:8085",
+          "139.162.78.109:3129",
+          "14.184.104.17:23",
+          "141.253.110.62:3212",
+          "154.82.63.235:40006",
+          "177.70.77.201:20183",
+          "180.103.19.143:1081",
+          "183.217.138.103:8123",
+          "23.165.240.230:10300",
+          "86.109.3.23:10018",
+          "86.109.3.23:10052"
+        ],
+        "removed_list": []
+      },
       "http": {
         "count": 141432,
         "added": 0,
@@ -1585,18 +1628,13 @@
         "added_list": [],
         "removed_list": []
       },
-      "https": {
-        "count": 50622,
-        "added": 0,
-        "removed": 0,
-        "added_list": [],
-        "removed_list": []
-      },
       "socks4": {
-        "count": 115421,
-        "added": 0,
+        "count": 115422,
+        "added": 1,
         "removed": 0,
-        "added_list": [],
+        "added_list": [
+          "154.82.63.235:40006"
+        ],
         "removed_list": []
       },
       "socks5": {
@@ -1607,7 +1645,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 7.303,
+    "duration_seconds": 7.181,
     "any_present": true
   }
 }
