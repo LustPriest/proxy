@@ -1,70 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-09-03T06:37:35.478009Z",
-      "protocols": {
-        "https": {
-          "count": 51015,
-          "added": 18,
-          "removed": 0,
-          "added_list": [
-            "103.147.73.33:8080",
-            "103.248.222.0:90",
-            "116.103.130.119:1006",
-            "116.103.130.119:1517",
-            "116.103.138.230:1006",
-            "116.103.138.230:1020",
-            "116.105.110.50:1006",
-            "165.255.24.149:8080",
-            "177.184.67.33:4145",
-            "195.211.71.200:1433",
-            "211.195.207.21:10002",
-            "45.90.98.163:3129",
-            "67.43.236.20:8247",
-            "72.10.160.90:32179",
-            "72.10.160.92:7053",
-            "72.10.164.178:1223",
-            "72.167.221.157:29798",
-            "87.106.103.177:3129"
-          ],
-          "removed_list": []
-        },
-        "http": {
-          "count": 140431,
-          "added": 4,
-          "removed": 0,
-          "added_list": [
-            "116.103.130.119:1006",
-            "116.103.138.230:1006",
-            "67.43.236.20:8247",
-            "72.10.160.90:32179"
-          ],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 114366,
-          "added": 4,
-          "removed": 0,
-          "added_list": [
-            "165.255.24.149:8080",
-            "172.245.12.55:3456",
-            "211.195.207.21:10002",
-            "72.167.221.157:29798"
-          ],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 132233,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 7.409,
-      "any_present": true
-    },
-    {
       "run_at": "2025-09-03T06:40:33.455603Z",
       "protocols": {
         "http": {
@@ -1684,20 +1620,55 @@
       },
       "duration_seconds": 7.105,
       "any_present": true
+    },
+    {
+      "run_at": "2025-09-03T07:07:36.582293Z",
+      "protocols": {
+        "https": {
+          "count": 50702,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "http": {
+          "count": 140459,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 114426,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 132317,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 7.107,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-09-03T07:04:33.371731Z",
+    "run_at": "2025-09-03T07:07:36.582293Z",
     "protocols": {
-      "http": {
-        "count": 140459,
+      "https": {
+        "count": 50702,
         "added": 0,
         "removed": 0,
         "added_list": [],
         "removed_list": []
       },
-      "https": {
-        "count": 50702,
+      "http": {
+        "count": 140459,
         "added": 0,
         "removed": 0,
         "added_list": [],
@@ -1718,7 +1689,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 7.105,
+    "duration_seconds": 7.107,
     "any_present": true
   }
 }
