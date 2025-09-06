@@ -1,41 +1,6 @@
 {
   "history": [
     {
-      "run_at": "2025-09-06T04:52:47.607328Z",
-      "protocols": {
-        "https": {
-          "count": 50844,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "http": {
-          "count": 143069,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks4": {
-          "count": 118036,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        },
-        "socks5": {
-          "count": 134748,
-          "added": 0,
-          "removed": 0,
-          "added_list": [],
-          "removed_list": []
-        }
-      },
-      "duration_seconds": 6.739,
-      "any_present": true
-    },
-    {
       "run_at": "2025-09-06T04:55:45.451374Z",
       "protocols": {
         "http": {
@@ -1512,10 +1477,45 @@
       },
       "duration_seconds": 6.944,
       "any_present": true
+    },
+    {
+      "run_at": "2025-09-06T05:22:44.248248Z",
+      "protocols": {
+        "http": {
+          "count": 143234,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "https": {
+          "count": 50828,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks4": {
+          "count": 118093,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        },
+        "socks5": {
+          "count": 134847,
+          "added": 0,
+          "removed": 0,
+          "added_list": [],
+          "removed_list": []
+        }
+      },
+      "duration_seconds": 6.929,
+      "any_present": true
     }
   ],
   "last_run": {
-    "run_at": "2025-09-06T05:19:46.346586Z",
+    "run_at": "2025-09-06T05:22:44.248248Z",
     "protocols": {
       "http": {
         "count": 143234,
@@ -1546,7 +1546,7 @@
         "removed_list": []
       }
     },
-    "duration_seconds": 6.944,
+    "duration_seconds": 6.929,
     "any_present": true
   }
 }
